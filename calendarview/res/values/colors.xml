@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">@android:color/holo_orange_light</color>
+    <color name="calendar_month_text_color">@color/red</color>
+    <color name="calendar_day_text_color">@color/red</color>
+    <color name="calendar_week_text_color">@color/red</color>
+    
+</resources>

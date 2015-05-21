@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/clMonthHeder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/calendar_month_header" />
+
+    <include
+        android:id="@+id/clWeekHeder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clMonthHeder"
+        android:layout_centerHorizontal="true"
+        layout="@layout/calendar_week_header" />
+
+    <include
+        android:id="@+id/clWeeks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/clWeekHeder"
+        android:layout_centerHorizontal="true"
+        layout="@layout/calendar_weeks_container" />
+
+</RelativeLayout>

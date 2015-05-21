@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="calendar_textsize_month">24dp</dimen>
+    <dimen name="calendar_textsize_day">12dp</dimen>
+    <dimen name="calendar_textsize_week">12dp</dimen>
+    <dimen name="calendar_padding_handle_left_right">10dp</dimen>
+    <dimen name="calendar_padding_handle_top_bottom">5dp</dimen>
+    <dimen name="calendar_padding_week">5dp</dimen>
+    
+</resources>

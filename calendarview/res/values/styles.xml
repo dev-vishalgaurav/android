@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Calendar.Month" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/calendar_month_text_color</item>
+        <item name="android:textSize">@dimen/calendar_textsize_month</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Calendar.Day" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/calendar_day_text_color</item>
+        <item name="android:textSize">@dimen/calendar_textsize_day</item>
+        <item name="android:background">#034034</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Calendar.Week" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textColor">@color/calendar_day_text_color</item>
+        <item name="android:textSize">@dimen/calendar_textsize_day</item>
+        <item name="android:background">#064064</item>
+        <item name="android:padding">@dimen/calendar_padding_week</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Calendar.Month.Handle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/calendar_padding_handle_left_right</item>
+        <item name="android:paddingRight">@dimen/calendar_padding_handle_left_right</item>
+        <item name="android:paddingTop">@dimen/calendar_padding_handle_top_bottom</item>
+        <item name="android:paddingBottom">@dimen/calendar_padding_handle_top_bottom</item>
+        <item name="android:textSize">@dimen/calendar_textsize_month</item>
+        
+    </style>
+
+</resources>
